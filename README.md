@@ -9,7 +9,7 @@
 
 원본데이터셋: Fox Go Dataset
 
-실습데이터셋: https://drive.google.com/drive/folders/1yP8hk7Pg1_VVMScAilLeOwdUn7LZq-NJ?usp=sharing
+실습데이터셋: https://drive.google.com/drive/folders/1GWnyr1ouSuvtvnxROiqVNaJf3t-8CavT?usp=sharing
 
 네트워크 파라미터: 제한없음
 
