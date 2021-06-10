@@ -7,6 +7,7 @@
   + 팀별로 자신만의 바둑 경기 기력 예측 머신러닝 만들기
   + 주어진 train data와 train label(18급~9단)을 이용하여 기력 예측 인공지능을 만들고, test data로 검증
   + 최종적으로, 구현한 기력 예측 인공지능을 이용해 query data를 예측해 label 제출
+  + 데이터 셋 : https://drive.google.com/drive/folders/1GWnyr1ouSuvtvnxROiqVNaJf3t-8CavT?usp=sharing
 
 - 구현 사항
   + 바둑 기보를 50수까지 제한 및 패딩
