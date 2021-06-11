@@ -20,8 +20,10 @@
 ```
 
 - 퍼블릭 랭킹
-```
-  Ranking : 1위(14팀 중)
-  14팀 평균 Accuracy : 10.88%
-```
 
+<img src="https://user-images.githubusercontent.com/62659407/121729249-32b8c680-cb29-11eb-9576-6fef5ba68c72.png" width="60%">
+
+```
+  Ranking : 공동 1위(13팀 중)
+  13팀 평균 Accuracy : 10.88%
+```
