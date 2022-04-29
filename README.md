@@ -15,6 +15,7 @@
   + 2차원 이미지(CNN)의 순차적 배열(RNN) → 2차원 이미지(19x19 바둑판)의 순차적 배열(바둑 기보) → keras의 'ConvLSTM2D' 모델 이용  
   + 'categorical_crossentropy' 손실 함수 이용
   + 'RMSprop' 알고리즘 이용
+  + 랜덤 시드를 고정하지 않고, 학습한 5개의 모델을 Soft Voting 
   
 - 정확도
 ```
