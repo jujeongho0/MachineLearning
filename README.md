@@ -10,7 +10,6 @@
   + 데이터 셋 : https://drive.google.com/drive/folders/1GWnyr1ouSuvtvnxROiqVNaJf3t-8CavT?usp=sharing
 
 - 구현 사항
-  + 바둑판은 백 돌('1'), 흑 돌('-1'), 돌이 없는 점('0')으로 구성되어있음 → 백 돌('100'), 흑 돌('200')로 초기화(백 돌과 흑 돌의 분포를 극명하게 하기 위해)
   + 바둑 기보를 50수까지 제한 및 패딩(바둑은 초반에 승패가 갈린다는 통계 참고)
   + 2차원 이미지(CNN)의 순차적 배열(RNN) → 2차원 이미지(19x19 바둑판)의 순차적 배열(바둑 기보) → keras의 'ConvLSTM2D' 모델 이용  
   + 'categorical_crossentropy' 손실 함수 이용
