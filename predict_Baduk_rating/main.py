@@ -116,7 +116,7 @@ if __name__=="__main__":
 
     device_name = tf.test.gpu_device_name()
     if device_name != '/device:GPU:0':
-    raise SystemError('GPU device not found')
+        raise SystemError('GPU device not found')
 
     train_encoded = train_encoded.reshape(5372,length,19,19,1)
     x_train, x_test, y_train, y_test = train_test_split(train_encoded, label, test_size=.1, random_state=777)
